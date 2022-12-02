@@ -1,0 +1,182 @@
+body{
+    background: rgb(42,154,103);
+background: linear-gradient(0deg, rgba(42,154,103,1) 0%, rgba(41,171,112,1) 50%, rgba(255,255,255,1) 100%);
+}
+#titulo{
+    position: relative;
+}
+
+#tituloo{
+ color: #22a374;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#titulo h1{
+    font-size: 100px;
+}
+
+@media screen and (max-width:500px) {
+    #titulo h1{
+        font-size: 20px;
+    }
+}
+#img_titulo{
+max-width: 900px;
+}
+
+#perfil{
+   
+    color: black;
+}
+#curso{
+    
+color: black;
+}
+#imgcadernoduracao{
+    width: 200px;
+}
+
+#pos-gradu{
+    
+    color: white;
+}
+#mercado{
+    color:white;
+    
+}
+#video{
+    color:white;
+  
+}
+#envolvebtn{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.botao1{
+  display: inline-block;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.nutrimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+#footer{
+    bottom: 0;
+    width: 100%;
+    height: 22rem;
+    background: rgb(42,154,103);
+    background: linear-gradient(0deg, rgba(42,154,103,1) 0%, rgba(41,171,112,1) 50%, rgba(255,255,255,1) 100%);
+  }
+  .icons{
+    text-align: center;
+    vertical-align: middle;
+    height: 7rem;
+  }
+  .icon{
+    padding: 10px;
+    width: 60px;
+  }
+  .footer-title{
+    
+    font-size: 40px;
+      line-height: 65px;
+      color: #252525;
+      text-align: center;
+  }
+  .footer-text{
+    font-size: 25px;
+      color: #252525;
+      text-align: center;
+  }
+  .footer-textsm{
+    font-size: 20px;
+    font-weight: 700;
+      color: #252525;
+      text-align: center;
+  }
+
+
+
+
+
+#embrulhoNoticias{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+#titleNewsBloco h2{
+    font-size: 30px;
+}
+
+#news {
+    cursor: url(../imgs/Dalmation.cur), default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#newsText {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: #ffffff;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#newsTitle a {
+    font-size: 35px;
+    color: #ffffff;
+    cursor: url(../imgs/Beagle.cur), default;
+}
+
+#post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#postTitle {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 7px black;
+}
+
+#postConteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px;
+}
+
+#postConteudo img {
+    margin-bottom: 25px;
+}
+
+#postagemWrapper{
+    background: rgb(42,154,103);
+    background: linear-gradient(0deg, rgb(0, 139, 77) 0%, rgba(41,171,112,1) 50%, rgba(41,140,112,1) 100%);
+    padding: 100px;
+}
+#postagemBorda{
+    padding: 50px;
+}
